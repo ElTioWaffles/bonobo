@@ -1,0 +1,147 @@
+/* Estilos para el cuerpo de la página */
+body {
+    background-color: #cce2cb; /* Color de fondo más claro */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #b6cfb6; /* Color de fondo para el encabezado */
+    padding: 20px;
+}
+
+.banner h1 {
+    background-image: url("../img/wideOIP\ .jpg");
+    background-size: cover; 
+    background-position: center;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20;
+    color: #fff; /* Color del texto en el encabezado */
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #97c1a9; /* Color de fondo para la barra de navegación */
+    height: 50px;
+    display: flex; /* Utilizamos flexbox para alinear los elementos */
+    justify-content: left; /* Centramos los elementos horizontalmente */
+    align-items: center; /* Centramos los elementos verticalmente */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    display: flex; /* Utilizamos flexbox para alinear los elementos */
+}
+
+nav ul li {
+    margin-right: 20px; /* Espacio entre elementos de la lista */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Eliminamos el margen del último elemento */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Color del texto en los enlaces */
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 20px;
+}
+
+/* Estilos para las secciones */
+section {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilos para los enlaces en la sección de recursos adicionales */
+section ul li a {
+    color: #333; /* Color del texto de los enlaces en la sección de recursos adicionales */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #b6cfb6; /* Color de fondo para el pie de página */
+    padding: 10px;
+    text-align: center;
+    color: #fff; /* Color del texto en el pie de página */
+}
+
+section {
+    margin-bottom: 20px;
+    text-align: center; /* Centrar el contenido */
+}
+
+/* Estilos para las imágenes */
+section img {
+    border: 5px solid green; /* Marco blanco alrededor de las imágenes */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Estilos para los títulos de las secciones */
+section h2 {
+    color: #333; /* Color del texto de los títulos */
+}
+
+/* Estilos para la tabla de hábitos alimenticios */
+.habitos-alimenticios {
+    margin: 20px auto; /* Centrar la tabla */
+    width: 80%; /* Ancho de la tabla */
+    overflow-x: auto;
+    text-align: center;
+}
+
+/* Estilos para las celdas de la tabla */
+.habitos-alimenticios td, .habitos-alimenticios th {
+    padding: 10px;
+    border: 2px solid green; /* Marco blanco alrededor de las celdas */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Estilos para la galería de imágenes */
+.gallery {
+    display: flex; /* Usa flexbox para organizar las miniaturas */
+    flex-wrap: wrap; /* Permite que las miniaturas se envuelvan a la siguiente línea */
+    justify-content: space-around; /* Distribuye uniformemente las miniaturas en la fila */
+    list-style-type: none; /* Quita la viñeta de la lista */
+}
+
+.thumbnail {
+    width: 200px; /* Define el ancho de las miniaturas */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción de la imagen */
+    margin: 10px; /* Agrega espacio entre las miniaturas */
+}
+
+/* Estilos para los enlaces */
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Color del texto en los enlaces */
+    padding: 10px; /* Espacio alrededor del texto para hacer clic */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+nav ul li a:hover {
+    background-color: #b6cfb6; /* Cambio de color de fondo al pasar el mouse */
+    border-radius: 5px; /* Borde redondeado en el hover */
+}
+
+/* Estilos para los enlaces en la sección de Recursos adicionales */
+main section ul li a {
+    text-decoration: none;
+    color: #007bff; /* Color del texto en los enlaces */
+    transition: color 0.3s; /* Transición suave del color del texto */
+}
+
+main section ul li a:hover {
+    color: #0056b3; /* Cambio de color del texto al pasar el mouse */
+}
